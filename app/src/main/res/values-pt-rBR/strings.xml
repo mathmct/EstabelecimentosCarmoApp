@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Bairro Carmo</string>
+    <string name="app_title">Serviços - Bairro Carmo</string>
+
+    <string name="categoria_academia">Academia</string>
+    <string name="categoria_restaurante">Restaurante</string>
+    <string name="categoria_veterinaria">Clínica Veterinária/Pet-shop</string>
+    <string name="categoria_supermercado">Supermercado</string>
+    <string name="categoria_bar">Bar</string>
+    <string name="categoria_escola">Escola de Inglês</string>
+
+    <string name="label_endereco">Endereço</string>
+    <string name="label_telefone">Telefone</string>
+    <string name="label_site">Site</string>
+
+    <string name="acao_ligar">Ligar</string>
+    <string name="acao_abrir_site">Abrir site</string>
+    <string name="acao_ver_mapa">Ver no mapa</string>
+    <string name="acao_voltar">Voltar</string>
+</resources>

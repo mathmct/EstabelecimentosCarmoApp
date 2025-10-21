@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Carmo Neighborhood</string>
+    <string name="app_title">Carmo Neighborhood - Services</string>
+
+    <string name="categoria_academia">Gym</string>
+    <string name="categoria_restaurante">Restaurant</string>
+    <string name="categoria_veterinaria">Veterinary/Pet-shop</string>
+    <string name="categoria_supermercado">Supermarket</string>
+    <string name="categoria_bar">Bar</string>
+    <string name="categoria_escola">English School</string>
+
+    <string name="label_endereco">Address</string>
+    <string name="label_telefone">Phone</string>
+    <string name="label_site">Website</string>
+
+    <string name="acao_ligar">Call</string>
+    <string name="acao_abrir_site">Open website</string>
+    <string name="acao_ver_mapa">View on map</string>
+    <string name="acao_voltar">Back</string>
+</resources>

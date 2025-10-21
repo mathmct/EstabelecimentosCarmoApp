@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#BB86FC</color>
+    <color name="onPrimary">#000000</color>
+    <color name="background">#121212</color>
+    <color name="onBackground">#FFFFFF</color>
+    <color name="divider">#222222</color>
+    <color name="success">#4CAF50</color>
+    <color name="accent">#03DAC5</color>
+</resources>
