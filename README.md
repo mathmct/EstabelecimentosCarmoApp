@@ -42,7 +42,7 @@ O projeto foi criado para fins didáticos, utilizando **Android Studio** e os pr
 
 | 🇧🇷 Modo Noturno | 🇧🇷 Modo Noturno (detalhes) | 🇺🇸 Modo Dia | 🇺🇸 Modo Dia (detalhes) |
 |:----------------:|:---------------------------:|:-------------:|:------------------------:|
-| <img src="docs/print1.png" width="200"> | <img src="docs/print2.png" width="200"> | <img src="docs/print3.png" width="200"> | <img src="docs/print4.png" width="200"> |
+| <img src="docs/print1.jpg" width="200"> | <img src="docs/print2.jpg" width="200"> | <img src="docs/print3.jpg" width="200"> | <img src="docs/print4.jpg" width="200"> |
 
 
 
