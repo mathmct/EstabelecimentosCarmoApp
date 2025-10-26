@@ -34,3 +34,7 @@ O projeto foi criado para fins didáticos, utilizando **Android Studio** e os pr
 1. **Clone este repositório:**
    ```bash
    git clone https://github.com/seuusuario/EstabelecimentosDoCarmo.git
+   
+## Demonstração do App
+
+<video src="teste.mp4" controls width="600"></video>
