@@ -37,4 +37,5 @@ O projeto foi criado para fins didáticos, utilizando **Android Studio** e os pr
    
 ## Demonstração do App
 
-<video src="teste.mp4" controls width="600"></video>
+[Clique aqui para assistir ao vídeo](./teste.mp4)
+
