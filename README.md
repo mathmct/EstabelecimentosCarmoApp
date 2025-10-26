@@ -38,4 +38,11 @@ O projeto foi criado para fins didáticos, utilizando **Android Studio** e os pr
 ## Demonstração do App - CLIQUE PARA ASSISTIR
 [![Assista ao vídeo](https://img.youtube.com/vi/iY1STMTAqUo/hqdefault.jpg)](https://www.youtube.com/shorts/iY1STMTAqUo)
 
+## Capturas de Tela
+
+| 🇧🇷 Modo Noturno | 🇧🇷 Modo Noturno (detalhes) | 🇺🇸 Modo Dia | 🇺🇸 Modo Dia (detalhes) |
+|:----------------:|:---------------------------:|:-------------:|:------------------------:|
+| ![Modo noturno lista](docs/print1.png) | ![Modo noturno detalhes](docs/print2.png) | ![Modo dia lista](docs/print3.png) | ![Modo dia detalhes](docs/print4.png) |
+
+
 
