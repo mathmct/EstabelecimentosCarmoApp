@@ -36,7 +36,7 @@ O projeto foi criado para fins didáticos, utilizando **Android Studio** e os pr
    git clone https://github.com/seuusuario/EstabelecimentosDoCarmo.git
    
 ## Demonstração do App
-
+**CLIQUE PARA ASSISTIR**
 [![Assista ao vídeo](https://img.youtube.com/vi/iY1STMTAqUo/hqdefault.jpg)](https://www.youtube.com/shorts/iY1STMTAqUo)
 
 
