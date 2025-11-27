@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/btnEscolherFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cad_escolher_foto"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:hint="@string/cad_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtCategoria"
+            android:hint="@string/cad_categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:hint="@string/cad_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtTelefone"
+            android:hint="@string/cad_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtSite"
+            android:hint="@string/cad_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/edtPlusCode"
+            android:hint="@string/cad_pluscode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cad_salvar"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
