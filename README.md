@@ -52,7 +52,7 @@ O projeto foi criado para fins didáticos, utilizando **Android Studio**, **Room
 
 | 🇧🇷 Modo Noturno | 🇧🇷 Modo Noturno (Cadastro) | 🇺🇸 Modo Dia | 🇺🇸 Modo Dia (Cadastro) |
 |:----------------:|:---------------------------:|:-------------:|:------------------------:|
-| <img src="docs/print5.jpg" width="200"> | <img src="docs/print6.jpg" width="200"> | <img src="docs/print7.jpg" width="200"> | <img src="docs/print8.jpg" width="200"> |
+| <img src="docs/print5.png" width="200"> | <img src="docs/print6.png" width="200"> | <img src="docs/print7.png" width="200"> | <img src="docs/print8.png" width="200"> |
 
 
 
