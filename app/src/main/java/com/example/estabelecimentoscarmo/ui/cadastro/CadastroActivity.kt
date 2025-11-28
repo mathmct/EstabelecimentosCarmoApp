@@ -36,14 +36,12 @@ class CadastroActivity : AppCompatActivity() {
 
     private fun setupLauncher() {
 
-        // FORÇAR A USAR O OpenDocument (SAF)
         launcherGaleria = registerForActivityResult(
             ActivityResultContracts.OpenDocument()
         ) { uri ->
 
             if (uri != null) {
 
-                // PERMISSÃO PERSISTENTE REAL
                 try {
                     contentResolver.takePersistableUriPermission(
                         uri,
