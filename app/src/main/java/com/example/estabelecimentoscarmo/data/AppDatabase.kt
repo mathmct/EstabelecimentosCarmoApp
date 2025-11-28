@@ -24,7 +24,6 @@ abstract class AppDatabase : RoomDatabase() {
                 val callback = object : Callback() {
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         super.onCreate(db)
-                        // Após criação do DB, insere dados iniciais em background
                         INSTANCE?.let { database ->
                             CoroutineScope(Dispatchers.IO).launch {
                                 val dao = database.estabelecimentoDao()
