@@ -1,48 +1,58 @@
-# Estabelecimentos do Carmo
+# Estabelecimentos do Carmo – App v2
 
-Um aplicativo Android simples desenvolvido em **Kotlin** que lista estabelecimentos do bairro e permite visualizar detalhes como telefone, site e localização no mapa.  
-O projeto foi criado para fins didáticos, utilizando **Android Studio** e os principais componentes de interface moderna (Material Design + tema Day/Night).
-
----
-
-## Funcionalidades
-
--  Listagem de estabelecimentos com nome e imagem  
--  Tela de detalhes ao clicar em um estabelecimento  
--  Botões para:
-   Ligar diretamente para o local  
-   Abrir o site oficial  
-   Ver a localização no Google Maps  
--  Suporte total a **modo escuro (Dark Theme)**  
--  Internacionalização (Português/Inglês)
+Um aplicativo Android desenvolvido em **Kotlin** que lista estabelecimentos do bairro, permite adicionar novos manualmente, filtrar por nome e visualizar detalhes como telefone, site e localização no mapa.  
+O projeto foi criado para fins didáticos, utilizando **Android Studio**, **Room Database**, **RecyclerView**, **ViewBinding** e **Kotlin Coroutines**, além de suporte a **Material Design** com tema Day/Night.
 
 ---
 
-## Tecnologias Utilizadas
+## 📱 Funcionalidades
+
+- **Listagem de estabelecimentos** com nome, categoria e imagem  
+- **Tela de detalhes** ao clicar em um item, exibindo todas as informações  
+- **Campos clicáveis** na tela de detalhes:  
+  - Telefone → abre o discador  
+  - Endereço → abre o Google Maps  
+  - Site → abre o navegador  
+  - Plus Code → abre o Google Maps  
+- **Adicionar novo estabelecimento** com foto e informações completas  
+- **Filtro por nome** em tempo real  
+- **Dados iniciais** já populados no banco de dados  
+- Suporte total a **modo escuro (Dark Theme)**  
+- Internacionalização (Português/Inglês)
+
+---
+
+## 🏗️ Tecnologias Utilizadas
 
 - **Linguagem:** Kotlin  
 - **IDE:** Android Studio  
-- **Arquitetura:** Activity + Intent  
-- **UI:** Material Components  
+- **Arquitetura:** Room + Repository + DAO + Activities  
+- **UI:** Material Components + RecyclerView + ViewBinding  
+- **Banco de Dados:** Room Database com dados iniciais  
+- **Assíncrono:** Kotlin Coroutines (Dispatchers IO/Main)  
 - **Internacionalização:** `values/` e `values-pt-rBR/`  
 - **Temas:** `Theme.MaterialComponents.DayNight`
 
 ---
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
 1. **Clone este repositório:**
    ```bash
-   git clone https://github.com/seuusuario/EstabelecimentosDoCarmo.git
+   git clone https://github.com/mathmct/EstabelecimentosDoCarmo.git
+
    
 ## Demonstração do App - CLIQUE PARA ASSISTIR
-[![Assista ao vídeo](https://img.youtube.com/vi/iY1STMTAqUo/hqdefault.jpg)](https://www.youtube.com/shorts/iY1STMTAqUo)
+[![Assista ao vídeo](https://img.youtube.com/vi/eOGkmQFnp3c/hqdefault.jpg)](https://www.youtube.com/shorts/eOGkmQFnp3c)
+
+## Video Longo Explicativo (Em Ingles) - CLIQUE PARA ASSISTIR
+[![Assista ao vídeo](https://img.youtube.com/vi/mq_nuGglWRE/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_nuGglWRE)
 
 ## Capturas de Tela
 
-| 🇧🇷 Modo Noturno | 🇧🇷 Modo Noturno (detalhes) | 🇺🇸 Modo Dia | 🇺🇸 Modo Dia (detalhes) |
+| 🇧🇷 Modo Noturno | 🇧🇷 Modo Noturno (Cadastro) | 🇺🇸 Modo Dia | 🇺🇸 Modo Dia (Cadastro) |
 |:----------------:|:---------------------------:|:-------------:|:------------------------:|
-| <img src="docs/print1.jpg" width="200"> | <img src="docs/print2.jpg" width="200"> | <img src="docs/print3.jpg" width="200"> | <img src="docs/print4.jpg" width="200"> |
+| <img src="docs/print5.jpg" width="200"> | <img src="docs/print6.jpg" width="200"> | <img src="docs/print7.jpg" width="200"> | <img src="docs/print8.jpg" width="200"> |
 
 
 
